@@ -1,4 +1,6 @@
-# personal-ip-comic
+# bg-personal-ip-comic
+
+仓库项目名为 `bg-personal-ip-comic`，安装目录和技能调用名仍为 `personal-ip-comic`。
 
 **个人 IP 漫画图文 Skill**，把经历、文章或选题变成有角色、有对白、能连续阅读的漫画。
 
@@ -8,7 +10,7 @@
 
 把下面这句话发给你的 Agent：
 
-> 请从 https://github.com/beganzzw/personal-ip-comic 安装 personal-ip-comic 技能到当前工具的用户级技能目录。先读取仓库说明，按当前环境适配安装路径，保留已有技能；安装后检查是否能识别，并告诉我如何调用。
+> 请从 https://github.com/beganzzw/bg-personal-ip-comic 安装 personal-ip-comic 技能到当前工具的用户级技能目录。先读取仓库说明，按当前环境适配安装路径，保留已有技能；安装后检查是否能识别，并告诉我如何调用。
 
 需要宿主支持技能加载，Agent 具有网络访问和文件写入能力。安装后是否立即生效取决于宿主；需要刷新或重启会话时应明确说明，不能把文件复制成功当作已经加载。
 
