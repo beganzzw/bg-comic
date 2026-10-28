@@ -1,6 +1,20 @@
 ---
 name: bg-comic
-description: 将真实经历、文章或选题渐进式改编为个人IP漫画图文。适用于个人漫画、幽默对白、分镜提示词、多风格图文和封面。按理解内容、大纲、风格与角色、对白、样图、整套交付推进，只加载当前阶段资料；缺少IP不阻断大纲，未指定画风时在视觉阶段推荐并等待选择。支持预设外自定义风格，不绑定固定角色；仅要求文字时不生图，不自动发布。
+display_name: BG 漫画创作
+display_name_en: BG Comic Studio
+description: 将真实经历、文章或选题渐进式改编为个人IP漫画图文。触发词：画漫画、做漫画、漫画大纲、分镜对白、手绘风格图文、公众号漫画封面。
+description_zh: 把经历与文章逐步转为有角色、有幽默对白的漫画图文，支持6种手绘风格预设与提示词交付
+description_en: Transform stories and articles into humorous comics with custom characters, 6 style presets, and prompt delivery
+version: 1.0.0
+author: beganzzw
+examples_zh:
+  - "把我的多工具配置经历画成三页四格漫画"
+  - "写一段关于AI编程工具切换的幽默漫画大纲"
+  - "为我的公众号文章生成一张横版漫画风格封面"
+examples_en:
+  - "Turn my multi-tool setup experience into a 3-page 4-panel comic"
+  - "Write a humorous comic storyboard about switching AI programming tools"
+  - "Generate a horizontal comic-style cover for my article"
 agent_created: true
 ---
 
@@ -26,7 +40,7 @@ agent_created: true
 
 ## 阶段3：选择风格与角色
 
-到需要设计画面时才读取 `references/styles.md`。
+到需要设计画面时才读取 `@references/styles.md`。
 
 - 已指定画风就采用。未指定则基于内容推荐一种并解释理由，提供必要备选和自定义入口，等待选择后继续依赖画风的视觉工作。不自动选择黑白。明确委托代选时说明选择后继续。
 - 六种风格仅为预设，不是白名单；用户参考图或自定义风格优先。风格与四格/六格/单图等格式分开确定。
@@ -38,13 +52,13 @@ agent_created: true
 
 ## 阶段4：分镜、对白与提示词
 
-此时读取 `references/playbook.md`。列出每格动作、说话者、准确对白和界面文字；默认四格但随叙事调整。笑点来自具体麻烦和自然回应，避免每格一句金句。先确保事情讲清，再增加幽默；不得补写虚假亲历。
+此时读取 `@references/playbook.md`。列出每格动作、说话者、准确对白和界面文字；默认四格但随叙事调整。笑点来自具体麻烦和自然回应，避免每格一句金句。先确保事情讲清，再增加幽默；不得补写虚假亲历。
 
 用户要求先看脚本时停在脚本，允许调整节奏和口语后再形成完整生图提示词。仅需要通用对白时可先于视觉选择执行，不要求用户先补齐无关素材。依赖具体角色/风格的最终提示词需明确对应方案。
 
 ## 阶段5：先样图、后整套
 
-明确授权生图后才读取 `references/production.md`，调用前再读取 `references/image-capabilities.md`。使用当前 Agent 自带或已配置的图片能力及默认模型，按实际schema映射参数；用户指定的可用服务优先，不绑定本地测试工具或模型。默认先做一张代表性样图，检查角色、中文、气泡与风格，用户选择后再展开其余页。同作品样图已确认或用户明确要求一次做完时可合并步骤，不增加无意义确认。
+明确授权生图后才读取 `@references/production.md`，调用前再读取 `@references/image-capabilities.md`。使用当前 Agent 自带或已配置的图片能力及默认模型，按实际schema映射参数；用户指定的可用服务优先，不绑定本地测试工具或模型。默认先做一张代表性样图，检查角色、中文、气泡与风格，用户选择后再展开其余页。同作品样图已确认或用户明确要求一次做完时可合并步骤，不增加无意义确认。
 
 按生成服务返回的任务状态跟进至产物落盘或明确失败，不能把“已提交”当完成交付。图生成后逐张检查，不靠文字承诺代替视觉验收。
 
@@ -52,7 +66,7 @@ agent_created: true
 
 ## 阶段6：组装与交付
 
-继续按 `references/production.md` 的交付部分组装连续阅读页、封面及素材包。图片脚注、截图和解释遵从当前用户选择。使用 `scripts/build_preview.py` 时保留历史版本。
+继续按 `@references/production.md` 的交付部分组装连续阅读页、封面及素材包。图片脚注、截图和解释遵从当前用户选择。使用 `scripts/build_preview.py` 时保留历史版本。
 
 只有明确授权才发布，保存草稿与公开发布分别核验并报告。不在当前技能保存凭证。
 
