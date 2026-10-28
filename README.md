@@ -24,7 +24,7 @@
 
 | 1/3 · 工具换了，活儿还没开始 | 2/3 · 能不能别让我挨个配置 | 3/3 · 配置集中，我继续上班 |
 | --- | --- | --- |
-| [![漫画第1页](examples/comic-01.png)](examples/comic-01.png) | [![漫画第2页](examples/comic-02.png)](examples/comic-02.png) | [![漫画第3页](examples/comic-03.png)](examples/comic-03.png) |
+| [![漫画第1页](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/comic-01.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/comic-01.png) | [![漫画第2页](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/comic-02.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/comic-02.png) | [![漫画第3页](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/comic-03.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/comic-03.png) |
 
 ---
 
@@ -34,12 +34,12 @@
 
 | Scribble 潦草涂鸦 | 治愈手绘 | 极简图解 |
 | :---: | :---: | :---: |
-| [![Scribble涂鸦](examples/style-scribble.png)](examples/style-scribble.png) | [![治愈手绘](examples/style-healing.png)](examples/style-healing.png) | [![极简图解](examples/style-diagram.png)](examples/style-diagram.png) |
+| [![Scribble涂鸦](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/style-scribble.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/style-scribble.png) | [![治愈手绘](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/style-healing.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/style-healing.png) | [![极简图解](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/style-diagram.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/style-diagram.png) |
 | 歪扭粗蜡笔线、夸张荒诞 | 柔和粉蜡笔与低饱和淡彩 | 豆形简化身躯、单色点缀与清晰图解 |
 
 | 活力手绘 | 白板手绘（Excalidraw风） | 黑白手稿（见上方连载） |
 | :---: | :---: | :---: |
-| [![活力手绘](examples/style-vibrant.png)](examples/style-vibrant.png) | [![白板手绘](examples/style-whiteboard.png)](examples/style-whiteboard.png) | [![黑白手稿](examples/comic-01.png)](examples/comic-01.png) |
+| [![活力手绘](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/style-vibrant.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/style-vibrant.png) | [![白板手绘](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/style-whiteboard.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/style-whiteboard.png) | [![黑白手稿](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/comic-01.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/comic-01.png) |
 | 粗黑描边、鲜明撞色块、动感十足 | 虚拟白板便签、虚线流程与导引标记 | 米白纸底、粗糙黑墨线、极简负空间 |
 
 ---
@@ -48,7 +48,7 @@
 
 打破单一四格分镜，支持生成适配社媒头条的大图封面：
 
-[![公众号横版封面示例](examples/cover-900x383.png)](examples/cover-900x383.png)
+[![公众号横版封面示例](https://raw.githubusercontent.com/beganzzw/bg-comic/main/examples/cover-900x383.png)](https://github.com/beganzzw/bg-comic/blob/main/examples/cover-900x383.png)
 
 > **素材说明**：示例中的角色由使用者提供，边牧形象不是技能的内置默认 IP；示例图片仅作效果参考，不适用本仓库 MIT 许可证。详见 [示例素材授权说明](examples/NOTICE.md)。
 
@@ -94,12 +94,12 @@
 
 | 风格 | 视觉特点 | 适合的内容 | 实作参考 |
 | --- | --- | --- | --- |
-| **黑白手稿** | 米白底、粗糙黑线、留白 | 个人经历、自嘲吐槽 | [连载大图](examples/comic-01.png) |
-| **Scribble 潦草涂鸦** | 歪扭轮廓、稚拙比例、夸张动作 | 荒诞趣事、幽默封面 | [单幅样图](examples/style-scribble.png) |
-| **治愈手绘** | 柔和线条、低饱和淡彩 | 工作日常、温和叙事 | [单幅样图](examples/style-healing.png) |
-| **极简图解** | 简化人物、短标签和少量箭头 | 概念解释、简单对比 | [单幅样图](examples/style-diagram.png) |
-| **活力手绘** | 粗线、少量亮色、动作突出 | 尝鲜体验、醒目封面 | [单幅样图](examples/style-vibrant.png) |
-| **白板手绘** | 手绘线框、便签和连接关系 | 教程补图、流程说明 | [单幅样图](examples/style-whiteboard.png) |
+| **黑白手稿** | 米白底、粗糙黑线、留白 | 个人经历、自嘲吐槽 | [连载大图](https://github.com/beganzzw/bg-comic/blob/main/examples/comic-01.png) |
+| **Scribble 潦草涂鸦** | 歪扭轮廓、稚拙比例、夸张动作 | 荒诞趣事、幽默封面 | [单幅样图](https://github.com/beganzzw/bg-comic/blob/main/examples/style-scribble.png) |
+| **治愈手绘** | 柔和线条、低饱和淡彩 | 工作日常、温和叙事 | [单幅样图](https://github.com/beganzzw/bg-comic/blob/main/examples/style-healing.png) |
+| **极简图解** | 简化人物、短标签和少量箭头 | 概念解释、简单对比 | [单幅样图](https://github.com/beganzzw/bg-comic/blob/main/examples/style-diagram.png) |
+| **活力手绘** | 粗线、少量亮色、动作突出 | 尝鲜体验、醒目封面 | [单幅样图](https://github.com/beganzzw/bg-comic/blob/main/examples/style-vibrant.png) |
+| **白板手绘** | 手绘线框、便签和连接关系 | 教程补图、流程说明 | [单幅样图](https://github.com/beganzzw/bg-comic/blob/main/examples/style-whiteboard.png) |
 
 未指定时会结合内容推荐一种，等待选择后再推进视觉制作，不自动套用黑白风。画风与四格、六格、单图封面等版式分开选择；切换风格不会自动改变文章主张。
 
